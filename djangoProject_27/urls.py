@@ -31,6 +31,7 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('vacancy/', include('vacancies.urls')),
     path('company/', include('companies.urls')),
+    path('user/', include('authentication.urls')),
     # path('skill/', views.VacancyListView.as_view()),
     # path('skill/<int:pk>/', views.VacancyDetailView.as_view())
 ]
